@@ -34,7 +34,7 @@ export default function MyInfoAside() {
                 <span>
                   <Mail className="inline w-5 h-5" />
                 </span>
-                <span> avd.yana@videorollnet</span>
+                <span className="text-sm"> avd.yana@videorollnet</span>
               </Link>
             </li>
             <ul className="flex gap-3 ">
