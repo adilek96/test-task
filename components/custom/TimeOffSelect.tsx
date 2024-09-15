@@ -31,7 +31,7 @@ export default function TimeOffSelect({
 }) {
   const [open, setOpen] = React.useState(false);
   const [value, setValue] = React.useState("");
-  const { value: tableValue, setValue: setTableValue } = useTableStore(); // Глобальный стейт для смены данных в таблице
+  const { setValue: setTableValue } = useTableStore(); // Глобальный стейт для смены данных в таблице
 
   return (
     <Popover open={open} onOpenChange={setOpen}>

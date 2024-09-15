@@ -91,7 +91,7 @@ const leaveData = [
 
 export default function TimeOffTable() {
   const [data, setData] = useState(sickData);
-  const { value, setValue } = useTableStore();
+  const { value } = useTableStore();
 
   // В зависимости от значения из стейт менеджера, данные в таблице будут меняться
 

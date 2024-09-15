@@ -1,4 +1,3 @@
-import { getUser } from "@/app/services/getUser";
 import MyInfoAside from "@/components/custom/MyInfoAside";
 import TimeOffSection from "@/components/custom/TimeOffSection";
 import React from "react";
