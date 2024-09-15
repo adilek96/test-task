@@ -24,25 +24,21 @@
 
 ### 1. Клонируйте репозиторий
 
-`строка кода`
-git clone https://gitlab.com/your-username/your-repository.git
-cd your-repository
+`git clone https://gitlab.com/your-username/your-repository.git`
+`cd your-repository`
 
 ### 2. Установите зависимости
 
-`строка кода`
-npm install
+`npm install`
 
 ### 3. Настройте переменные окружения
 
 Создайте файл .env.local в корневой директории проекта и добавьте переменную для вызова апи
 
-`строка кода`
-NEXT_PUBLIC_GRAPHQL_ENDPOINT="https://api.escuelajs.co/graphql"
+`NEXT_PUBLIC_GRAPHQL_ENDPOINT="https://api.escuelajs.co/graphql"`
 
 ### 4. Запустите проект в режиме разработки
 
-`строка кода`
-npm run dev
+`npm run dev`
 
 Ваше приложение будет доступно по адресу (http://localhost:3000)
